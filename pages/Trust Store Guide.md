@@ -38,11 +38,10 @@ Two essential things you can do to immediately optimize your Trust Store managem
 
 3.  90 5f 94 2f d9 f2 8f 67 9b 37 81 80 fd 4f 84 63 47 f6 45 c1
 
-<img src="TSG_Media/media/image2.png" width="624" height="350" />
+![enter image description here](https://raw.githubusercontent.com/dasgituser/fpki-guides/staging/img/TSG-image2.png) 
+![enter image description here](https://raw.githubusercontent.com/dasgituser/fpki-guides/staging/img/TSG-image3.png) 
 
-<img src="TSG_Media/media/image3.png" width="624" height="350" />
-
-<span id="_Toc430633602" class="anchor"></span>Figure 1. Installing the FCPCA Trust Anchor
+<span id="_Toc430633602" class="anchor"></span>Figure 1. Installing the Federal Common Policy Trust Anchor
 
 ***Play 2 Download and Install the FPKI Intermediate and Issuing CAs***
 --------------------------------------------------------------
@@ -59,15 +58,15 @@ Two essential things you can do to immediately optimize your Trust Store managem
 
 3.  Once opened, click ctrl + M to open the snap-in menu.
 
-    <img src="TSG_Media/media/image4.png" width="542" height="382" />
-
+    ![enter image description here](https://raw.githubusercontent.com/dasgituser/fpki-guides/staging/img/TSG-image4.png) 
+   
 <span id="_Toc430633603" class="anchor"></span>Figure 2. Open the Certificate Snap-in
 
 1.  Click on “Certificates”, add, and then “OK”. A tree hierarchy should appear with the different certificate folders.
 
 2.  Click on the “Intermediate Certificate Authorities” Folder and then on the “Certificates” subfolder.
 
-<img src="TSG_Media/media/image5.png" width="624" height="335" />
+![enter image description here](https://raw.githubusercontent.com/dasgituser/fpki-guides/staging/img/TSG-image5.png)
 
 <span id="_Toc430633604" class="anchor"></span>Figure 3. Install FPKI Intermediate Certificates
 
@@ -140,7 +139,7 @@ Setting Windows to conduct dynamic validation will also help find new FPKI CA ce
 
 Certificate validation looping is when a certificate validates past the FCPCA Trust Anchor and is caused by a misconfigured trust store and can be operating system specific. Microsoft CAPI uses the certificate path with the most certificate information against which certificates are in the Microsoft Trust Store. Because the FCPCA is cross-certified with the Federal Bridge, a federal certificate could validate to a commercial trust store.
 
-<img src="TSG_Media/media/image6.jpg" width="664" height="374" />
+![enter image description here](https://raw.githubusercontent.com/dasgituser/fpki-guides/staging/img/TSG-image6.jpg)
 
 <span id="_Toc430633605" class="anchor"></span>Figure . Example of a Certificate Validation Loop
 
