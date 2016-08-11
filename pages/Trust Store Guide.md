@@ -169,7 +169,7 @@ Figure 10 is an example of a NASA certificate validating through FCPCA and the F
 3.  Delete all certificates “issued to” the Federal Common Policy CA.
 
 ##**Acronyms**
-|Term|Definition|
+|Acronym|Definition|
 |---|---|
 |**APL**|Approved Products List|
 |**ATO**|Authority to Operate|
@@ -182,7 +182,7 @@ Figure 10 is an example of a NASA certificate validating through FCPCA and the F
 |**CRL**|Certificate Revocation List|
 |**CPWG**|Certificate Policy Working Group|
 |**EGCA**|E-Governance Certification Authority|
-|**FBCA** – Federal Bridge Certification Authority
+|**FBCA**|Federal Bridge Certification Authority
 |**FCPCA**|Federal Common Policy Certification Authority|
 |**FICAM**|Federal Identity, Credential, and Access Management|
 |**FPKI**|Federal Public Key Infrastructure|
