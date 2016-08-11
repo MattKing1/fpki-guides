@@ -149,15 +149,15 @@ Figure 10 is an example of a NASA certificate validating through FCPCA and the F
 
 2.  Once opened, click ctrl + M to open the snap-in menu.
 
-    <img src="TSG_Media/media/image4.png" width="488" height="344" />
-
+    ![enter image description here](https://raw.githubusercontent.com/dasgituser/fpki-guides/staging/img/TSG-image4.png)
+    
 <span id="_Toc430633606" class="anchor"></span>Figure . Open the Certificate Manager Snap-In
 
 1.  Click on “Certificates”, add, and then “OK.” A tree hierarchy should appear with the different certificate folders.
 
 2.  Click on the “Intermediate Certificate Authorities” folder and then on the “Certificates” subfolder.
 
-<img src="TSG_Media/media/image5.png" width="624" height="326" />
+![enter image description here](https://raw.githubusercontent.com/dasgituser/fpki-guides/staging/img/TSG-image5.png)
 
 <span id="_Toc430633607" class="anchor"></span>Figure . Remove the FPKI Participating CA Cross-Certificates
 
